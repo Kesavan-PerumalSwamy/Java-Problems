@@ -10,7 +10,7 @@ public class ElectricityBill {
         System.out.println("Enter the Units : ");
         double Units=input.nextDouble();
         double billsTopay=0;
-        if(Units<100){
+        if(Units<101){
             billsTopay=Units*0;
         }else if(Units>100 && Units<201){
             billsTopay=Units*1.5;
